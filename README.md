@@ -1,16 +1,16 @@
-# 🎲 Blackjack with Dices
-An interactive Blackjack game with dice, playable from the terminal. Face off against the CPU and try to reach 21 without going over. The CPU makes strategic decisions based on the selected difficulty level.
+# 🎲 Blackjack with Dice
+An interactive **Blackjack game with dice,** playable from the terminal. Face off against the **CPU** and try to reach **21** without going over. The CPU makes **strategic decisions** based on the selected difficulty level.
 
-**🔗 Access the code: [GitHub - Tania Agredo: Blackjack](https://github.com/taniagredo/blackjack)**
+**🔗 Access the code:** [GitHub - Tania Agredo: Blackjack](https://github.com/taniagredo/blackjack)
 
  ## Main Features
-- Dice-based Blackjack game.
-- Adjustable difficulty levels: Easy, Medium, and Hard.
-- Roll the dice to get as close as possible to 21 points.
-- Choose whether to risk another roll or stand.
-- Interactive terminal interface using @clack/prompts.
-- Adaptive CPU intelligence that decides when to roll based on difficulty.
-- Dynamic outcomes: win, lose, or tie.
+- **Dice-based Blackjack** game.
+- **Adjustable difficulty levels:** Easy, Medium, and Hard.
+- **Roll the dice** to get as close as possible to 21 points.
+- **Choose** whether to risk another roll or stand.
+- **Interactive terminal interface** using @clack/prompts.
+- **Adaptive CPU intelligence** that decides when to roll based on difficulty.
+- **Dynamic outcomes:** win, lose, or tie.
 
 ## Preview
 1. **Game Start**
@@ -91,10 +91,10 @@ If not installed, download it from [Node.js](https://nodejs.org/)
 5. Follow the on-screen instructions.
 
 ## Build With
+- [Node.js](https://nodejs.org/) - To run the script in the terminal.  
+- [@clack/prompts](https://www.npmjs.com/package/@clack/prompts) - Library for interactive terminal prompts.  
+- [JavaScript (ES6+)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Uses modern features like `async/await`, `reduce()`, `filter()`, etc.
 
-- **Node.js** - To run the script in the terminal. 
-- **@clack/prompts** - Library for interactive terminal prompts. 
-- **JavaScript (ES6+)** - Uses modern features like `async/await`, `reduce()`, `filter()`, etc.
 
 ## Contributions
 Contributions are welcome! To improve this game:

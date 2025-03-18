@@ -111,4 +111,4 @@ Contributions are welcome! To improve this game:
 4. Submit a Pull Request.
 
 ## License
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the [LICENSE](https://github.com/taniagredo/blackjack/LICENSE) file for more details.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the [LICENSE](LICENSE) file for more details.

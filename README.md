@@ -15,77 +15,87 @@ An interactive **Blackjack game with dice**, playable from the terminal. Face of
 ## Preview
 1. **Game Start**
    
-   ```sh
-   ¡Bienvenidos!
-   ¿Desea jugar Blackjack?
-   1. Sí, en dificultad fácil.
-   2. Sí, en dificultad intermedia.
-   3. Sí, en dificultad difícil.
-   4. No  
+```sh
+¡Bienvenidos!
+¿Desea jugar Blackjack?
+1. Sí, en dificultad fácil.
+2. Sí, en dificultad intermedia.
+3. Sí, en dificultad difícil.
+4. No  
+```
 
 3. **First Dice Roll**
    
-   ```sh
-   🎲 Tiraste los dados: 4, 5, 3 → Total: 12
-   🤖 La CPU tiró los dados: 6, 2, 5 → Total: 13
-   ¿Desea lanzar el dado de nuevo?
-   1. Sí
-   2. No
+```sh
+🎲 Tiraste los dados: 4, 5, 3 → Total: 12
+🤖 La CPU tiró los dados: 6, 2, 5 → Total: 13
+¿Desea lanzar el dado de nuevo?
+1. Sí
+2. No
+```
 
 5. **New Roll**
    
-   ```sh
-   🎲 Lanzaste de nuevo un 6 → Total: 18
-   🤖 La CPU lanzó el dado 2 → Total: 15
-   ¿Desea lanzar el dado de nuevo?
-   1. Sí
-   2. No
+```sh
+🎲 Lanzaste de nuevo un 6 → Total: 18
+🤖 La CPU lanzó el dado 2 → Total: 15
+¿Desea lanzar el dado de nuevo?
+1. Sí
+2. No
+```
 
 7. **Final Result**
    
-   ```sh
-   🎲 Lanzaste de nuevo un 4 → Total: 22
-   💀 Has perdido porque te pasaste de 21. CPU ha ganado.
+```sh
+🎲 Lanzaste de nuevo un 4 → Total: 22
+💀 Has perdido porque te pasaste de 21. CPU ha ganado.
+```
 
 8. **Winning Example**
 
-   ```sh
-   🎲 Tiraste los dados: 6, 5, 10 → Total: 21
-   🏆 Has ganado. CPU ha perdido.  
+```sh
+🎲 Tiraste los dados: 6, 5, 10 → Total: 21
+🏆 Has ganado. CPU ha perdido.  
+```
 
 9. **Draw Example**
 
-    ```sh
-    🎲 Tiraste los dados: 7, 6, 5 → Total: 18
-    🤖 La CPU tiró los dados: 6, 6, 6 → Total: 18
-    🔄 Es un empate.  
+```sh
+🎲 Tiraste los dados: 7, 6, 5 → Total: 18
+🤖 La CPU tiró los dados: 6, 6, 6 → Total: 18
+🔄 Es un empate.  
+```
 
 ## Prerequisites
 Before running the game, make sure you have:
 - **Node.js** (recommended version: 16 or higher).
 - To check if it's installed, run the following command in your terminal:
   
-  ```sh
-  node -v
+```sh
+node -v
+```
 
 If not installed, download it from [Node.js](https://nodejs.org/).
 
 ## Install and Use
 1. Clone the repository:
    
-   ```sh
-   git clone https://github.com/taniagredo/blackjack.git
-   cd blackjack
- 
+```sh
+git clone https://github.com/taniagredo/blackjack.git
+cd blackjack
+```
+
 2. Install dependencies: 
 
-   ```sh
-   npm install @clack/prompts
+```sh
+npm install @clack/prompts
+```
 
 3. Run the game:
 
-   ```sh
-   node blackjack.js
+```sh
+node blackjack.js
+```
 
 4. Follow the on-screen instructions.
 
@@ -100,13 +110,16 @@ Contributions are welcome! To improve this game:
 1. Fork the repository.
 2. Create a new branch:
 
-   ```sh
-   git checkout -b feature-nueva-funcionalidad
+```sh
+git checkout -b feature-nueva-funcionalidad
+```
    
 3. Make your changes and commit them:
-   ```sh
-   git commit -m "Descripción del cambio"
-   git push origin feature-nueva-funcionalidad
+   
+```sh
+git commit -m "Descripción del cambio"
+git push origin feature-nueva-funcionalidad
+```
 
 4. Submit a Pull Request.
 

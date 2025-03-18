@@ -1,7 +1,7 @@
 # 🎲 Blackjack with Dice
-An interactive **Blackjack game with dice,** playable from the terminal. Face off against the **CPU** and try to reach **21** without going over. The CPU makes **strategic decisions** based on the selected difficulty level.
+An interactive **Blackjack game with dice**, playable from the terminal. Face off against the **CPU** and try to reach **21** without going over. The CPU makes **strategic decisions** based on the selected difficulty level.
 
-**🔗 Access the code:** [GitHub - Tania Agredo: Blackjack](https://github.com/taniagredo/blackjack)
+**🔗 Access the code:** [GitHub - Tania Agredo: Blackjack with Dice](https://github.com/taniagredo/blackjack)
 
  ## Main Features
 - **Dice-based Blackjack** game.
@@ -10,7 +10,7 @@ An interactive **Blackjack game with dice,** playable from the terminal. Face of
 - **Choose** whether to risk another roll or stand.
 - **Interactive terminal interface** using @clack/prompts.
 - **Adaptive CPU intelligence** that decides when to roll based on difficulty.
-- **Dynamic outcomes:** win, lose, or tie.
+- **Dynamic outcomes:** Win, Lose, or Tie.
 
 ## Preview
 1. **Game Start**
@@ -68,8 +68,7 @@ Before running the game, make sure you have:
   ```sh
   node -v
 
-If not installed, download it from [Node.js](https://nodejs.org/)
-
+If not installed, download it from [Node.js](https://nodejs.org/).
 
 ## Install and Use
 1. Clone the repository:
@@ -78,23 +77,22 @@ If not installed, download it from [Node.js](https://nodejs.org/)
    git clone https://github.com/taniagredo/blackjack.git
    cd blackjack
  
-3. Install dependencies: 
+2. Install dependencies: 
 
    ```sh
    npm install @clack/prompts
 
-4. Run the game:
+3. Run the game:
 
    ```sh
    node blackjack.js
 
-5. Follow the on-screen instructions.
+4. Follow the on-screen instructions.
 
 ## Build With
 - [Node.js](https://nodejs.org/) - To run the script in the terminal.  
 - [@clack/prompts](https://www.npmjs.com/package/@clack/prompts) - Library for interactive terminal prompts.  
 - [JavaScript (ES6+)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Uses modern features like `async/await`, `reduce()`, `filter()`, etc.
-
 
 ## Contributions
 Contributions are welcome! To improve this game:
@@ -113,4 +111,4 @@ Contributions are welcome! To improve this game:
 4. Submit a Pull Request.
 
 ## License
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the [LICENSE](https://github.com/taniagredo/blackjack/LICENSE) file for more details.
